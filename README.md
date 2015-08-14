@@ -35,6 +35,7 @@ Querying and reading temperature:
 
 ##ESP8266 ESP01
 * Flash nodemcu how-to
+* Luatool
  
 ##OpenHAB
 * Install openhab, install mosquitto, install rdd
