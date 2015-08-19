@@ -35,7 +35,11 @@ Querying and reading temperature:
 
 ##ESP8266 ESP01
 * Flash nodemcu how-to
-* Luatool
+* esptool https://github.com/themadinventor/esptool.git
+
+sudo python esptool.py -p /dev/cu.usbserial-A600eI3j write_flash 0x00000 ~/Downloads/nodemcu_float_0.9.6-dev_20150406.bin
+
+* Luatool https://github.com/4refr0nt/luatool.git
  
 ##OpenHAB
 * Install openhab, install mosquitto, install rdd
